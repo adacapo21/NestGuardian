@@ -24,20 +24,7 @@ Before you begin, ensure you have met the following requirements:
 To run the application, follow these steps:
 
 Build and run the Docker containers:
-```docker-compose up --build```
-
-### Locally
-To run the application locally, follow these steps:
-
-Install dependencies:
-```npm install```
-
-Set up your environment variables in a .env file in your root directory. 
-Refer to config/database.env for necessary variables.
-
-Start the application:
-```npm run start```
-
+```docker-compose up --build -d```
 
 
 ## API Endpoints
